@@ -33,7 +33,7 @@ export default function ProfilePage() {
       const formData = new FormData();
       formData.append("file", file);
       formData.append("upload_preset", CLOUDINARY_PRESET);
-      formData.append("folder", "vantage_profiles");
+      formData.append("folder", "alphawave_profiles");
 
       const res = await fetch(
         `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD}/image/upload`,

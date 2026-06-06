@@ -4,7 +4,7 @@ import { MessageCircle } from "lucide-react";
 
 export default function WhatsAppButton() {
   const phoneNumber = "+447728467790"; // Replace with real support number
-  const message = "Hello, I need assistance with my vāntãgeCFD account.";
+  const message = "Hello, I need assistance with my AlphaWave Markets account.";
   const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
   return (

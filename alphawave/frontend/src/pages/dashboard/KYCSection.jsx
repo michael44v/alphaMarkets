@@ -44,7 +44,7 @@ function UploadZone({ docType, onUploaded, disabled }) {
       const form = new FormData();
       form.append("file",          raw);
       form.append("upload_preset", CLOUDINARY_PRESET);
-      form.append("folder",        "vantage_kyc");
+      form.append("folder",        "alphawave_kyc");
 
       const cfRes = await fetch(
         `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD}/auto/upload`,
