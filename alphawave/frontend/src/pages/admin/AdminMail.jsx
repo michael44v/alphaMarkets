@@ -92,7 +92,7 @@ export default function AdminMail() {
                 className="input-field h-48 resize-none py-4"
                 required
               />
-              <p className="text-[10px] text-[#8897A9] mt-2 italic">Supports plain text. Emails are sent via vāntãgeCFD Mail Gateway.</p>
+              <p className="text-[10px] text-[#8897A9] mt-2 italic">Supports plain text. Emails are sent via AlphaWave Markets Mail Gateway.</p>
             </div>
 
             {error && <p className="text-sm font-bold text-red-500">{error}</p>}

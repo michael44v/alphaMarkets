@@ -125,7 +125,7 @@ export default function LoginPage() {
         </div>
 
         <p className="text-xs text-white/20 relative z-10">
-          © {new Date().getFullYear()} vāntãgeCFD. All rights reserved.
+          © {new Date().getFullYear()} AlphaWave Markets. All rights reserved.
         </p>
       </div>
 

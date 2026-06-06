@@ -15,7 +15,7 @@ const navItems = [
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [siteName, setSiteName] = useState("vāntãgeCFD");
+  const [siteName, setSiteName] = useState("AlphaWave Markets");
   const [siteLogo, setSiteLogo] = useState("https://www.vantagemarkets.com/wp-content/themes/vantage/images/logo.svg");
   const { user, logout } = useAuth();
   const navigate = useNavigate();

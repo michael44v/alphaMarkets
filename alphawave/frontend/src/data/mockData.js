@@ -171,7 +171,7 @@ export const platforms = [
   },
   {
     id: "app",
-    name: "vāntãgeCFD App",
+    name: "AlphaWave Markets App",
     tag: "iOS / Android",
     badge: null,
     description:

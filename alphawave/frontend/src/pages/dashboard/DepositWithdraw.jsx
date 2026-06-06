@@ -16,10 +16,10 @@ const CRYPTO_WALLETS = [
 ];
 
 const BANK_DETAILS = [
-  { label: "Bank Name",      value: "vāntãgeCFD Global Prime" },
+  { label: "Bank Name",      value: "AlphaWave Markets Global Prime" },
   { label: "Account Number", value: "881 223 990 001" },
   { label: "SWIFT / BIC",    value: "VGPGBK11XX" },
-  { label: "Account Name",   value: "vāntãgeCFD Ltd" },
+  { label: "Account Name",   value: "AlphaWave Markets Ltd" },
   { label: "Reference",      value: "Your registered email" },
 ];
 
@@ -75,7 +75,7 @@ async function uploadToCloudinary(file) {
   const form = new FormData();
   form.append("file",           file);
   form.append("upload_preset",  "futyApp");
-  form.append("folder",         "vantage_deposits");
+  form.append("folder",         "alphawave_deposits");
   const res = await fetch(`https://api.cloudinary.com/v1_1/dguvkirdr/auto/upload`, {
     method: "POST", body: form,
   });

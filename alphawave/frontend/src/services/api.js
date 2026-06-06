@@ -1,7 +1,7 @@
 /**
- * vāntãgeCFD — Frontend API Service
+ * AlphaWave Markets — Frontend API Service
  *
- * Base: https://vantagemarketts.com/backend/api.php
+ * Base: https://vantagecfd.com/backend/api.php
  * Auth: PHP returns a base64 token on login.
  *       Stored in localStorage, sent as Bearer on every request.
  *
@@ -16,9 +16,9 @@ const CLOUDINARY_CLOUD_NAME    = "dguvkirdr";
 const CLOUDINARY_UPLOAD_PRESET = "ablemarkets";
 
 // ── Token helpers ─────────────────────────────────────────────────────────────
-export const getToken   = ()      => localStorage.getItem("vm_token");
-export const setToken   = (tok)   => localStorage.setItem("vm_token", tok);
-export const clearToken = ()      => localStorage.removeItem("vm_token");
+export const getToken   = ()      => localStorage.getItem("awm_token");
+export const setToken   = (tok)   => localStorage.setItem("awm_token", tok);
+export const clearToken = ()      => localStorage.removeItem("awm_token");
 
 // ── Core request helper ───────────────────────────────────────────────────────
 /**

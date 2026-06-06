@@ -34,7 +34,7 @@ export default function ForgotPassword() {
            <div className="w-10 h-10 bg-accent rounded-xl flex items-center justify-center shadow-lg shadow-accent/20">
               <Shield className="w-6 h-6 text-white" />
            </div>
-           <span className="font-display font-extrabold text-2xl text-primary tracking-tight">vāntãgeCFD</span>
+           <span className="font-display font-extrabold text-2xl text-primary tracking-tight">AlphaWave Markets</span>
         </Link>
 
         <div className="bg-white py-10 px-6 shadow-xl rounded-3xl sm:px-10 border border-[#DDE3EE]">

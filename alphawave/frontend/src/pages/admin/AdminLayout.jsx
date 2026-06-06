@@ -45,7 +45,7 @@ export default function AdminLayout() {
           </div>
           {sidebarOpen && (
             <span className="font-display font-extrabold text-base text-white truncate">
-              vāntãgeCFD Admin
+              AlphaWave Markets Admin
             </span>
           )}
         </div>

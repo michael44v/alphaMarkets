@@ -5,8 +5,8 @@ const AuthContext = createContext(null);
 
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(() => {
-    const stored = localStorage.getItem("vantagemarkets_user");
-    //const stored = localStorage.getItem("vm_token");
+    const stored = localStorage.getItem("awm_user");
+    //const stored = localStorage.getItem("awm_token");
     return stored ? JSON.parse(stored) : null;
   });
 
@@ -18,7 +18,7 @@ export function AuthProvider({ children }) {
       const response = await authService.login(credentials);
       if (response.success) {
         setUser(response.user);
-        localStorage.setItem("vantagemarkets_user", JSON.stringify(response.user));
+        localStorage.setItem("awm_user", JSON.stringify(response.user));
         return { success: true, role: response.user.role };
       }
       
@@ -26,13 +26,13 @@ export function AuthProvider({ children }) {
       if (credentials.email === "admin@vantageCFD.com" && credentials.password === "admin123") {
         const adminUser = { id: 1, name: "Admin User", email: credentials.email, role: "admin" };
         setUser(adminUser);
-        localStorage.setItem("vantagemarkets_user", JSON.stringify(adminUser));
+        localStorage.setItem("awm_user", JSON.stringify(adminUser));
         return { success: true, role: "admin" };
       }
       if (credentials.email === "trader@vantageCFD.com" && credentials.password === "trader123") {
         const traderUser = { id: 2, name: "Demo Trader", email: credentials.email, role: "trader" };
         setUser(traderUser);
-        localStorage.setItem("vm_token", JSON.stringify(traderUser));
+        localStorage.setItem("awm_user", JSON.stringify(traderUser));
         return { success: true, role: "trader" };
       }
       return { success: false, error: "Invalid email or password." };
@@ -43,7 +43,7 @@ export function AuthProvider({ children }) {
 
   const logout = useCallback(() => {
     setUser(null);
-    localStorage.removeItem("vantagemarkets_user");
+    localStorage.removeItem("awm_user");
   }, []);
 
   return (
