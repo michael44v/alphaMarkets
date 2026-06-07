@@ -3,7 +3,7 @@ import { Send } from "lucide-react";
 export default function WhatsAppButton() {
   const username = "AlphaWaveSupport"; // Replace with your Telegram username or bot
   const message = "Hello, I need assistance with my AlphaWave Markets account.";
-  const url = `https://t.me/${username}?text=${encodeURIComponent(message)}`;
+  const url = `https://t.me/Alphawavemarketssupport?text=${encodeURIComponent(message)}`;
 
   return (
     
