@@ -9,10 +9,10 @@ const CLOUDINARY_CLOUD  = "dguvkirdr";
 const CLOUDINARY_PRESET = "ablemarkets";
 
 const CRYPTO_WALLETS = [
-  { symbol: "BTC",  name: "Bitcoin",   network: "Bitcoin Network",   address: "bc1qmal2x2cuadsazm30k8k9r4f49vjemag0n5veue", color: "#F7931A", icon: "₿" },
-  { symbol: "ETH",  name: "Ethereum",  network: "ERC-20",            address: "0x76b4290026e9BF4770714C6a67302C97724D98aF", color: "#627EEA", icon: "Ξ" },
-  { symbol: "USDT", name: "Tether",    network: "TRC-20 (TRON)",     address: "TT5sbDn7brY96wpBEia8Vd4uxGN8vE6M9W",         color: "#26A17B", icon: "₮" },
-  { symbol: "BNB",  name: "BNB",       network: "BNB Smart Chain",   address: "0x76b4290026e9BF4770714C6a67302C97724D98aF", color: "#F3BA2F", icon: "B" },
+  { symbol: "BTC",  name: "Bitcoin",   network: "Bitcoin Network",   address: "bc1qn5j4cmnrcm3ny5es0vhz034jexx7dyqy8hn296", color: "#F7931A", icon: "₿" },
+  { symbol: "ETH",  name: "Ethereum",  network: "ERC-20",            address: "0xf4b06a0ad0b19a4cb4c0fc338e41ca1e4daee71e", color: "#627EEA", icon: "Ξ" },
+  { symbol: "USDT", name: "Tether",    network: "TRC-20 (TRON)",     address: "TYkLpjxveWCDkBaQN5BhekK8rFqdtDK7a1",         color: "#26A17B", icon: "₮" },
+  { symbol: "USDT",  name: "Tether",       network: "ERC-20",   address: "0xf4b06a0ad0b19a4cb4c0fc338e41ca1e4daee71e", color: "#F3BA2F", icon: "B" },
 ];
 
 const BANK_DETAILS = [
