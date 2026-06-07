@@ -10,9 +10,9 @@ const CLOUDINARY_PRESET = "ablemarkets";
 
 const CRYPTO_WALLETS = [
   { symbol: "BTC",  name: "Bitcoin",   network: "Bitcoin Network",   address: "bc1qn5j4cmnrcm3ny5es0vhz034jexx7dyqy8hn296", color: "#F7931A", icon: "₿" },
-  { symbol: "ETH",  name: "Ethereum",  network: "ERC-20",            address: "0xf4b06a0ad0b19a4cb4c0fc338e41ca1e4daee71e", color: "#627EEA", icon: "Ξ" },
+  { symbol: "ETH",  name: "Ethereum",  network: "ERC-20",            address: "0xF4b06a0adOb19a4cB4C0FC338e41calE4dAeE71E", color: "#627EEA", icon: "Ξ" },
   { symbol: "USDT", name: "Tether",    network: "TRC-20 (TRON)",     address: "TYkLpjxveWCDkBaQN5BhekK8rFqdtDK7a1",         color: "#26A17B", icon: "₮" },
-  { symbol: "USDT",  name: "Tether",       network: "ERC-20",   address: "0xf4b06a0ad0b19a4cb4c0fc338e41ca1e4daee71e", color: "#F3BA2F", icon: "B" },
+  { symbol: "USDT",  name: "Tether",       network: "ERC-20",   address: "0xF4b06a0adOb19a4cB4C0FC338e41calE4dAeE71E", color: "#F3BA2F", icon: "B" },
 ];
 
 const BANK_DETAILS = [
