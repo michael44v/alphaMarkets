@@ -262,7 +262,7 @@ export default function HomePage() {
 
             <h1 className="font-display font-extrabold text-white leading-[1.06] mb-6"
               style={{ fontSize:"clamp(38px,5.5vw,68px)", letterSpacing:"-0.02em" }}>
-              vāntãgeCFD<br/>
+            AlphaWave Markets<br/>
               <span style={{ background:"linear-gradient(90deg,#FF6B35,#F5A623)", WebkitBackgroundClip:"text", WebkitTextFillColor:"transparent" }}>
                 Ultimate Trading
               </span><br/>
