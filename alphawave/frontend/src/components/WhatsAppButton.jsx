@@ -6,7 +6,7 @@ export default function WhatsAppButton() {
   const url = `https://t.me/Alphawavemarketssupport?text=${encodeURIComponent(message)}`;
 
   return (
-    
+    <a
       href={url}
       target="_blank"
       rel="noreferrer"
