@@ -257,7 +257,7 @@ export default function HomePage() {
             <div className="inline-flex items-center gap-2 mb-6 rounded-full px-4 py-1.5"
               style={{ background:"rgba(255,107,53,0.15)", border:"1px solid rgba(255,107,53,0.35)" }}>
               <Wifi className="w-3.5 h-3.5 text-[#FF6B35]"/>
-              <span className="text-[11px] font-bold uppercase tracking-[0.08em] text-[#FF6B35]">Live Markets · Award-Winning CFD Broker</span>
+              <span className="text-[11px] font-bold uppercase tracking-[0.08em] text-[#FF6B35]">Get $200 bonus for your first $1000 deposit</span>
             </div>
 
             <h1 className="font-display font-extrabold text-white leading-[1.06] mb-6"
