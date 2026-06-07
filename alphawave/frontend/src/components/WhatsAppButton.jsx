@@ -10,7 +10,7 @@ export default function WhatsAppButton() {
       href={url}
       target="_blank"
       rel="noreferrer"
-      className="fixed bottom-4 right-20 z-50 bg-[#229ED9] text-white p-4 rounded-full shadow-lg hover:scale-110 transition-transform flex items-center justify-center group"
+      className="fixed bottom-4 right-10 z-50 bg-[#229ED9] text-white p-4 rounded-full shadow-lg hover:scale-110 transition-transform flex items-center justify-center group"
       aria-label="Contact Support on Telegram"
     >
       <Send className="w-6 h-6 fill-white" />
