@@ -423,7 +423,7 @@ export default function DepositWithdraw() {
                 <Field label="Bank Name" error={fieldErr.bankName}>
                   <input type="text" value={wForm.bankName}
                     onChange={(e) => { setWForm((p) => ({ ...p, bankName: e.target.value })); setFieldErr((p) => ({ ...p, bankName: undefined })); }}
-                    placeholder="e.g. GTBank, Access Bank" className={`input-field ${fieldErr.bankName ? "border-red-400" : ""}`} />
+                    placeholder="e.g. Chase Bank, Bank Of America" className={`input-field ${fieldErr.bankName ? "border-red-400" : ""}`} />
                 </Field>
                 <Field label="Account Number" error={fieldErr.accountNumber}>
                   <input type="text" value={wForm.accountNumber}
