@@ -118,7 +118,7 @@ export default function DepositWithdraw() {
     const errs = {};
     const val  = parseFloat(amount);
     if (!amount || isNaN(val)) errs.amount = "Please enter an amount.";
-    else if (val < 10)         errs.amount = "Minimum deposit is $100.00.";
+    else if (val < 10)         errs.amount = "Minimum deposit is $300.00.";
     else if (val > 15000000)      errs.amount = "Maximum is $15,000,000.00.";
     setFieldErr(errs);
     return !Object.keys(errs).length;
@@ -281,7 +281,7 @@ export default function DepositWithdraw() {
                       onChange={(e) => { setAmount(e.target.value); setFieldErr((p) => ({ ...p, amount: undefined })); }}
                       placeholder="0.00" className={`input-field pl-8 text-lg font-bold ${fieldErr.amount ? "border-red-400" : ""}`} />
                   </div>
-                  <p className="text-[10px] text-[#8897A9] mt-1 italic">Min: $100 · Max: $15,000,000</p>
+                  <p className="text-[10px] text-[#8897A9] mt-1 italic">Min: $300 · Max: $15,000,000</p>
                 </Field>
                 <div className="flex gap-2 flex-wrap">
                   {[100, 500, 1000, 5000].map((v) => (
